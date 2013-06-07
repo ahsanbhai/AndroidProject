@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <EditTextPreference
+        android:title="@string/etpTitle"
+        android:key="name"
+        android:summary="@string/etpSummary" />
+    
+    <CheckBoxPreference
+        android:title="@string/cbTitle"
+        android:defaultValue="true"
+        android:key="checkbox"
+        android:summary="@string/cbSummary" />
+    
+    <ListPreference
+        android:title="@string/listTitle"
+        android:key="list"
+        android:summary="@string/listSummary"
+        android:entries="@array/list" 
+        android:entryValues="@array/lValues" />
+
+</PreferenceScreen>

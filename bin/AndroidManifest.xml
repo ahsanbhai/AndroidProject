@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.firsttry"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.firsttry.Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.firsttry.Main"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.firsttry.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.firsttry.Menu"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.firsttry.MENU" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.firsttry.Prefs"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.firsttry.PREFS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.firsttry.AboutUs"
+            android:label="@string/app_name" 
+            android:theme="@android:style/Theme.Dialog">
+            <intent-filter>
+                <action android:name="com.example.firsttry.ABOUT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.firsttry.SQLView"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.firsttry.SQLVIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.firsttry.TextPlay"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.firsttry.Email"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.firsttry.Camera"
+            android:label="@string/camera_app_name" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.example.firsttry.Data"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.firsttry.GFX"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.firsttry.GFXSurface"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.firsttry.SoundStuff"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.firsttry.Slider"
+            android:label="@string/app_name" >
+        </activity>
+         <activity
+            android:name="com.example.firsttry.Tabs"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.firsttry.SimpleBrowser"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.firsttry.Flipper"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.firsttry.SharedPrefs"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.firsttry.InternalData"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.firsttry.ExternalData"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.firsttry.SQLiteExample"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.firsttry.OpenedClass"
+            android:label="@string/app_name" >
+        </activity>
+    </application>
+
+</manifest>

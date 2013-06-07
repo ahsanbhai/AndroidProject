@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ViewFlipper
+        android:id="@+id/viewFlipper1"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent" >
+
+        <Button
+            android:id="@+id/bFlipper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bFlipperText" />
+
+        <TextView
+            android:id="@+id/tv1Flipper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv1FlipperText" />
+
+        <TextView
+            android:id="@+id/tv2Flipper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv2FlipperText" />
+
+        <TextView
+            android:id="@+id/tv3Flipper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv3FlipperText" />
+    </ViewFlipper>
+
+</LinearLayout>
